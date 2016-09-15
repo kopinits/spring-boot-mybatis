@@ -1,7 +1,11 @@
 # spring-boot-mybatis
 A simple Spring-Boot rest application with mybatis
 
-To run: mvn spring-boot:run
+To run: 
+
+mvn clean install
+
+mvn spring-boot:run
 
 Endpoints
 
