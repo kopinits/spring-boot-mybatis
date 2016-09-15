@@ -3,7 +3,7 @@ package com.markus.app.rest.dto;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
-public abstract class DistributeDTO {
+public abstract class AbstractDTO {
 	private Long id;
 	private Integer version;
 	public Long getId() {
