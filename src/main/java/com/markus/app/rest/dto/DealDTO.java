@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.markus.app.rest.support.CustomDateDeserializer;
 import com.markus.app.rest.support.CustomDateSerializer;
 
-public class DealDTO extends DistributeDTO{
+public class DealDTO extends AbstractDTO{
 	private String name;
 	
 	@JsonSerialize(using = CustomDateSerializer.class)
