@@ -1,5 +1,5 @@
 # spring-boot-mybatis
-A simple Spring-Boot rest application with mybatis
+A simple Spring-Boot rest application with mybatis using annotation
 
 To run: 
 
